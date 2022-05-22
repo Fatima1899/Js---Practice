@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.search{
+    padding-top: 20px;
+    .form-control{
+        margin: auto;
+        padding: auto;
+        width:300px; 
+        height: 45px;
+    }
+}
+.wrapper{
+    padding-top: 10px;
+    align-items: center;
+    .box{
+        width: 400px;
+        height: 400px;
+        border: 3px solid black;
+        margin: auto;
+        padding: auto;
+        .ball{
+            border-radius: 100%;
+            border: 2px solid black;
+            width: 60px;
+            height: 60px;
+            position: relative;
+            left:155px;
+            top:150px;
+        }
+    }
+    .small-box{
+        width: 150px;
+        height: 90px;
+        border: 3px solid black;
+        margin: auto;
+        padding: auto;
+        margin-top: 10px;
+        .left-top{
+            width: 25px;
+            height: 15px;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+        .left-center{
+            width: 35px;
+            height: 15px;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+        .left-bottom{
+            width: 25px;
+            height: 15px;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+        .center-top{
+            width: 15px;
+            height: 25px;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+        .center{
+            width: 10px;
+            height: 10px;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+        .center-bottom{
+            width: 15px;
+            height: 25px;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+        .right-top{
+            width: 25px;
+            height: 15px;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+        .right-center{
+            width: 35px;
+            height: 15px;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+        .right-bottom{
+            width: 25px;
+            height: 15px;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+    }
+}
